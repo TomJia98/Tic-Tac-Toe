@@ -1,0 +1,21 @@
+td {
+  border: solid 2px black;
+  padding: 50px 50px;
+}
+table {
+  margin: auto;
+}
+.title {
+  text-align: center;
+}
+#win {
+  text-align: center;
+}
+#winButton {
+  margin: auto;
+}
+
+.bottom {
+  margin: auto;
+  text-align: center;
+}

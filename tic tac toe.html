@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tac toe</title>
+    <script src="tic tac toe.js">
+
+    </script>
+    <link rel="stylesheet" href="tic tac toe.css">
+
+</head>
+<body>
+    <h1 class=title> Tic Tac Toe</h1>
+    <p class=title>Get 3 in a row!</p>
+    <table>
+            <tr>
+                <td class=box id=1 onmouseleave="mLeave(1)" onmouseover="mOver(1)" onclick="onClick(1)"></td>
+                <td class=box id=2 onmouseleave="mLeave(2)" onmouseover="mOver(2)" onclick="onClick(2)"></td>
+                <td class=box id=3 onmouseleave="mLeave(3)" onmouseover="mOver(3)" onclick="onClick(3)"></td>
+            </tr>
+            <tr>
+                <td class=box id=4 onmouseleave="mLeave(4)" onmouseover="mOver(4)" onclick="onClick(4)"></td>
+                <td class=box id=5 onmouseleave="mLeave(5)" onmouseover="mOver(5)" onclick="onClick(5)"></td>
+                <td class=box id=6 onmouseleave="mLeave(6)" onmouseover="mOver(6)" onclick="onClick(6)"></td>
+            </tr>
+            <tr>
+                <td class=box id=7 onmouseleave="mLeave(7)" onmouseover="mOver(7)" onclick="onClick(7)"></td>
+                <td class=box id=8 onmouseleave="mLeave(8)" onmouseover="mOver(8)" onclick="onClick(8)"></td>
+                <td class=box id=9 onmouseleave="mLeave(9)" onmouseover="mOver(9)" onclick="onClick(9)"></td>
+            </tr>
+
+    </table>
+
+    </div>
+
+    <div class=bottom>
+    <h2 id=win></h2>
+    <button id=winButton onclick="reset()" style="display:none;">Try again?</button>
+    </div>
+</body>
+</html>
